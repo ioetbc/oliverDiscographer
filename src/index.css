@@ -1,0 +1,41 @@
+p, a, li, h1, h2, h3, h4, button {
+    font-family: AG,sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+body {
+    color: #3a3a3a;
+    margin: 0;
+    padding: 25px 30px 30px 30px;
+}
+
+::selection {
+    background-color: #333;
+    color: white;
+}
+
+.header {
+    height: 20vh;
+    z-index: 2;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+}
+
+input, select {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+}
